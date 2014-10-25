@@ -1,0 +1,119 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CEP Donation Mockup: Simple Form</title>
+    <meta name="description" content="CEP Donation Mockup: Simple Form">
+    <meta name="author" content="Gopi Vajravelu">
+  
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+  
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row text-center">
+        <h1>Donation Form</h1>
+      </div>
+      <form class="form-horizontal center-div" role="form">
+        <div class="form-group">
+          <label for="amount" class="col-sm-offset-3 col-sm-2 control-label">Amount: $</label>
+          <input type="text" name="amount" id="amount" class="col-sm-2">
+        </div>
+        <div class="form-group">
+          <label for="donor_name" class="col-sm-offset-3 col-sm-2 control-label">Your name:</label>
+          <input type="text" name="donor_name" id="donor_name" class="col-sm-2">
+        </div>
+        <div class="form-group">
+          <label for="email" class="col-sm-offset-3 col-sm-2 control-label">Email:</label>
+          <input type="text" name="email" id="email" class="col-sm-2">
+        </div>
+        <div class="form-group">
+          <label for="address" class="col-sm-offset-3 col-sm-2 control-label">Address:</label>
+          <input type="text" name="address" id="address" class="col-sm-2">
+        </div>
+        <div class="form-group">
+          <label for="address2" class="col-sm-offset-3 col-sm-2 control-label">City, State Zip:</label>
+          <input type="text" name="address2" id="address2" class="col-sm-2">
+        </div>
+        <div class="form-group">
+          <label for="work_phone" class="col-sm-offset-3 col-sm-2 control-label">Work phone:</label>
+          <input type="text" name="work_phone" id="work_phone" class="col-sm-2">
+        </div>
+        <div class="form-group">
+          <label for="cell_phone" class="col-sm-offset-3 col-sm-2 control-label">Cell phone:</label>
+          <input type="text" name="cell_phone" id="cell_phone" class="col-sm-2">
+        </div>
+        <div class="form-group">
+          <div class="checkbox col-sm-offset-3">
+            <label><input type="checkbox" name="anonymous"> I wish to remain <em><strong>anonymous</strong></em> and do not want to be recognized in CEP's publications.</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="radio col-sm-offset-3">
+            <label><input type="radio" name="credit_card_type" id="visa" value="Visa"> Visa</label>
+            <label><input type="radio" name="credit_card_type" id="mastercard" value="MasterCard"> MasterCard</label>
+            <label><input type="radio" name="credit_card_type" id="amex" value="Amex"> Amex</label>
+            <label><input type="radio" name="credit_card_type" id="discover" value="Discover"> Discover</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="card_number" class="col-sm-offset-3 col-sm-2 control-label">Card number:</label>
+          <input type="text" name="card_number" id="card_number" class="col-sm-2">
+        </div>
+        <div class="form-group">
+          <label for="card_expiration" class="col-sm-offset-3 col-sm-2 control-label">Expiration date:</label>
+          <input type="text" name="card_expiration" id="card_expiration" class="col-sm-2">
+        </div>
+        <div class="form-group">
+          <label for="card_cvv" class="col-sm-offset-3 col-sm-2 control-label">CVV:</label>
+          <input type="text" name="card_cvv" id="card_cvv" class="col-sm-2">
+        </div>
+        <p class="col-sm-offset-3">My company has a <em><strong>matching gift</strong></em> program.</p>
+        <div class="form-group">
+          <label for="company_name" class="col-sm-offset-3 col-sm-2 control-label">Name of company:</label>
+          <input type="text" name="company_name" id="company_name" class="col-sm-2">
+        </div>
+        <p class="col-sm-offset-3">This gift will be: </p>
+        <div class="form-group">
+          <label for="memory_name" class="col-sm-offset-3 col-sm-2 control-label">In memory of:</label>
+          <input type="text" name="memory_name" id="memory_name" class="col-sm-2">
+        </div>
+        <div class="form-group">
+          <label for="honor_name" class="col-sm-offset-3 col-sm-2 control-label">In honor of:</label>
+          <input type="text" name="honor_name" id="honor_name" class="col-sm-2">
+        </div>
+        <p class="col-sm-offset-3">Please notify the following person of my gift:</p>
+        <div class="form-group">
+          <label for="notify_name" class="col-sm-offset-3 col-sm-2 control-label">Name:</label>
+          <input type="text" name="notify_name" id="notify_name" class="col-sm-2">
+        </div>
+        <div class="form-group">
+          <label for="notify_address" class="col-sm-offset-3 col-sm-2 control-label">Address:</label>
+          <input type="text" name="notify_address" id="notify_address" class="col-sm-2">
+        </div>
+        <div class="form-group">
+          <label for="notify_address2" class="col-sm-offset-3 col-sm-2 control-label">City, State Zip:</label>
+          <input type="text" name="notify_address2" id="notify_address2" class="col-sm-2">
+        </div>
+        <input type="submit" value="Donate" class="btn btn-large btn-primary col-sm-offset-5 col-sm-2">
+      </form>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

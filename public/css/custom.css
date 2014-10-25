@@ -3,3 +3,14 @@
   margin: 0 auto;
   width: 80%;
 }
+
+a
+{
+  color: #FFF;
+}
+
+a:hover
+{
+  color: #FFF;
+  text-decoration: none;
+}
