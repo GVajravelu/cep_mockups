@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>CEP Donation Mockup: Simple Form</title>
-    <meta name="description" content="CEP Donation Mockup: Suggested Donation Amount Form">
+    <meta name="description" content="CEP Donation Mockup: Recurring Donation Form">
     <meta name="author" content="Gopi Vajravelu">
   
     <!-- Bootstrap -->
@@ -25,17 +25,19 @@
   <body>
     <div class="container">
       <div class="row text-center">
-        <h1>Suggested Donation Amount Form</h1>
+        <h1>Recurring Donation Form</h1>
       </div>
       <form class="form-horizontal center-div" role="form">
+        <div class="form-group">
+          <label for="amount" class="col-sm-offset-3 col-sm-2 control-label">Amount: $</label>
+          <input type="text" name="amount" id="amount" class="col-sm-2">
+        </div>
         <div class="form-group text-center">
           <div class="radio col-sm-offset-3">
-            <label class="col-sm-1"><input type="radio" name="amount" id="25" value="25"> $25</label>
-            <label class="col-sm-1"><input type="radio" name="amount" id="50" value="50"> $50</label>
-            <label class="col-sm-1"><input type="radio" name="amount" id="100" value="100"> $100</label>
-            <label class="col-sm-1"><input type="radio" name="amount" id="250" value="250"> $250</label>
-            <label class="col-sm-1"><input type="radio" name="amount" id="500" value="500"> $500</label>
-            <label class="col-sm-1"><a href="one_time_form.html" class="simple-link">Other</a></label>
+            <label class="col-sm-2"><input type="radio" name="frequency" id="once" value="25">one time</label>
+            <label class="col-sm-2"><input type="radio" name="frequency" id="monthly" value="50">monthly</label>
+            <label class="col-sm-2"><input type="radio" name="frequency" id="quarterly" value="100">quarterly</label>
+            <label class="col-sm-2"><input type="radio" name="frequency" id="yearly" value="250">yearly</label>
           </div>
         </div>
         <div class="form-group">
